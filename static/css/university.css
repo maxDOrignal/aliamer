@@ -1,0 +1,96 @@
+
+/* Start Header */
+header{
+    height: 85px;
+
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    height: 85px;
+    align-items: center;
+    list-style: none;
+    float: right;
+    margin: 0 20px 0 0;
+}
+
+#header > li{
+    padding: 20px 0;
+}
+
+#header > li > a{
+    padding: 20px 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ;
+}
+
+#header > li > a:hover{
+    background-color: #94d67f;
+    color: white;
+}
+
+#logo_container{
+    margin: 10px 20px;
+    float: left;
+}
+#logo{
+    height: 80px;
+    
+}
+/* End Header */
+
+/* Start About */
+#about{
+
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    margin: 25px 0 30px 0;
+}
+#about > #university{
+    text-align: center;
+}
+#about > #college{
+    text-align: center;
+}
+/* End About */
+
+/* Start subjects, welcoming */
+.cneter{
+    text-align: center;
+    margin: 20px;
+}
+/* End subjects, welcoming */
+
+/* Start info */
+.danger{
+    color: red
+}
+/* End info */
+
+/* Start Rules */
+.rules{
+    list-style-type: disc;
+    margin: 30px 30px;
+}
+
+.rules > .rule{
+    margin-bottom: 10px;
+}
+
+.nested_lists > .nested_list{
+    margin-bottom: 5px;
+}
+
+.nested_list{
+    margin-right: 30px;
+}
+/* End Rules */
+
+/* Start control committee */
+.control_committee{
+    margin-top: 40px;
+}
+/* End control committee */
